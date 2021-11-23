@@ -1,6 +1,19 @@
+.w3-content{ font-family: Arial, Helvetica, sans-serif !important;
+    background-image: url("va8PRZ.jpg");}
+
+
+
+
+
+
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+  }
+
+  img {
+    border-radius: 50%;
+    
   }
