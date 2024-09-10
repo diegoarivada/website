@@ -1,0 +1,24 @@
+:root{
+  background: #1e1e2e;
+}
+
+
+.w3-content{ 
+    font-family: monospace !important;
+    color: white;
+    
+}
+
+
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  img {
+    border-radius: 50%;
+    
+  }

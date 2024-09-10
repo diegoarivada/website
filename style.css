@@ -1,24 +1,66 @@
+
 :root{
-  background: #1e1e2e;
-}
-
-
-.w3-content{ 
+    background: #1e1e2e;
+  }
+body {
     font-family: monospace !important;
-    color: white;
-    
+    text-align: center;
+    margin: 0;
+    padding: 0;
 }
-
-
-
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  }
-
-  img {
+h1 {
+    font-family: monospace !important;
+    font-size: 2em;
+    line-height: 1.5em;
+}
+.header-content {
+    background-color: #1e1e2e;
+    color: white;
+    padding: 100px 5px 10px 5px;
+}
+.subheader-content {
+    color: white;
+    font-size: 1.125em;
+    padding: 0 5px 40px 5px;
+}
+.social-links {
+    color: #89b4fa;
+    font-size: 1.75em;
+    text-decoration: none;
+}
+.social-links td {
+    padding: 0 15px;
+}
+img {
+    height: 400px;
+    width: 400px;
     border-radius: 50%;
-    
-  }
+}
+body {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; /* Ensures consistent font */
+}
+main {
+    color:white;
+    padding: 20px;
+}
+img {
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+    object-fit: cover; /* Ensures image fits well in the circle */
+}
+h1 {
+    font-size: 2em;
+    margin: 20px 0;
+}
+p {
+    font-family: monospace !important;
+    font-size: 1.125em;
+    line-height: 1.6em;
+    max-width: 800px; /* Limits paragraph width for readability */
+    margin: 0 auto;
+    padding: 0 15px; /* Adds some padding for small screens */
+}
