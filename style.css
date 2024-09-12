@@ -44,53 +44,6 @@ h1 {
     margin-bottom: 2vw;
 }
 
-.contact-info p {
-    margin: 0.5rem 0;
-}
-
-.contact-info a {
-    color: var(--highlight-color); /* Highlight color for links */
-    text-decoration: none;
-}
-
-.contact-info a:hover {
-    text-decoration: underline;
-}
-
-.contact-form {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-}
-
-.contact-form label {
-    font-weight: bold;
-}
-
-.contact-form input,
-.contact-form textarea {
-    padding: 0.75rem;
-    border-radius: var(--border-radius);
-    border: 1px solid var(--link-color);
-    font-size: 1rem;
-    width: 100%;
-}
-
-.contact-form button {
-    align-self: start;
-    padding: 0.75rem 1.5rem;
-    font-size: 1.125rem;
-    background-color: var(--highlight-color);
-    color: var(--text-color);
-    border: none;
-    border-radius: var(--border-radius);
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-.contact-form button:hover {
-    background-color: #0056b3;
-}
 
 .header-content {
     background-color: var(--background-color);
