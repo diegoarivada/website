@@ -36,13 +36,34 @@
         <section class="gallery">
             <h2>Gallery</h2>
             <div class="gallery-grid">
-                <img src="Pictures/roses.jpg" alt="Gallery Image 1" class="gallery-item">
+                <img src="Pictures/seattle.jpg" alt="Gallery Image 1" class="gallery-item">
                 <img src="Pictures/777x.jpg" alt="Gallery Image 2" class="gallery-item">
                 <img src="Pictures/messi.jpg" alt="Gallery Image 3" class="gallery-item">
                 <img src="Pictures/barca.jpg" alt="Gallery Image 4" class="gallery-item">
                 <img src="Pictures/spain.png" alt="Gallery Image 5" class="gallery-item">
                 >
             </div>
+        </section>
+
+
+        <section class="contact">
+            <h3>Contact Me</h3>
+            <div class="contact-info">
+                <p>If you have any questions or would like to get in touch, feel free to reach out using the form below or contact me directly at:</p>
+                <p>Email: <a href="mailto:diego@example.com">diegoarivada@gmail.com</a></p>
+            </div>
+            <form action="mailto:diegoarivada@gmail.com" method="post" enctype="text/plain" class="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                
+                <button type="submit" class="social-button">Send Message</button>
+            </form>
         </section>
     </main>
 
